@@ -10,7 +10,9 @@ const theme = {
     white: '#FFFFFF',
     grey: '#F9F6FC',
     dark: '#333333',
-    purple: '#5D00BF'
+    purple: '#5D00BF',
+    lightGreen: '#DCF5F2',
+    darkGreen: '#00A38C'
   }
 }
 
