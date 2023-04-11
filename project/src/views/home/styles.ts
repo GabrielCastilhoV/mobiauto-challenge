@@ -37,9 +37,9 @@ export const Description = styled.p`
 
 export const Form = styled.form`
   ${({ theme }) => css`
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
-    padding: 40px 60px;
+    padding: 20px 40px;
 
     background-color: ${theme.colors.white};
     box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
@@ -49,6 +49,11 @@ export const Form = styled.form`
     flex-direction: column;
     gap: 1rem;
   `}
+
+  @media screen and (min-width: 768px) {
+    width: 70%;
+    padding: 40px 60px;
+  }
 `
 
 export const ButtonWrapper = styled.div`
