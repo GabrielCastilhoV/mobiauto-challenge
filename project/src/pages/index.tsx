@@ -1,3 +1,16 @@
+import Head from 'next/head'
+
+// views
+import { HomeView } from 'views'
+
 export default function Home() {
-  return <h1>Home page</h1>
+  return (
+    <>
+      <Head>
+        <title>Mobiauto - Fipe</title>
+      </Head>
+
+      <HomeView />
+    </>
+  )
 }
