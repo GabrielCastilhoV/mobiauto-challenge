@@ -30,6 +30,7 @@ const Select = ({
   return (
     <MUISelect
       options={options}
+      data-testid="autocomplete"
       getOptionLabel={(option) => option.name}
       value={value}
       onChange={handleChange}
